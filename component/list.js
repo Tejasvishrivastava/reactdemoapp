@@ -1,10 +1,10 @@
 function getlist(){
 
-    var mylist= [
-        "Item1",
-        "Item2",
-        "item3"
-]
+    var mylist= {
+        "1":"mango",
+        "2":"grape",
+        "3":"apple"
+}
     return mylist
 }
 

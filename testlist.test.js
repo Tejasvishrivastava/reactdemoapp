@@ -1,5 +1,7 @@
 var mylist =require('./component/list')
 
-test("testing \ array",()=>{
-    expect(mylist).toHaveLength(3)
+test("testing items array",()=>{
+    expect(mylist).toBeDefined()
+    expect(mylist).not.toBe({"1":"mango"})
+    expect(mylist[1]).toContain("mango")
 })
